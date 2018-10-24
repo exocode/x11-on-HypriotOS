@@ -3,8 +3,8 @@ Instructions how to install X11 on a HypriotOS based Raspberry Pi system
 
 This repo contains some scripts and detailled instructions on how to install and use X11 windows manager on a HypriotOS based Raspberry Pi system
 
-Our main intention for HypriotOS for us was, to build a minimal server operating system for the 
-Raspberry Pi, which contains all the necessary tools and packages to run Docker out-of-the-box. 
+Our main intention for HypriotOS for us was, to build a minimal server operating system for the
+Raspberry Pi, which contains all the necessary tools and packages to run Docker out-of-the-box.
 For this reason we didn't include X11 and other graphical application in the default SD card image.
 
 But it's really easy to install all X11 utilities, if you'd like to connect a HDMI monitor or the official 7" touch screen display from the Raspberry Pi Org.
@@ -19,7 +19,7 @@ these details are based on blog post [Jessie on Raspberry PI 2 with Docker and C
 
 Running the installer script need sudo privileges for some elevated commands.
 ```
-curl -sSL https://github.com/hypriot/x11-on-HypriotOS/raw/master/install-x11-basics.sh | bash
+curl -sSL https://github.com/exocode/x11-on-HypriotOS/raw/master/install-x11-basics.sh | bash
 ```
 Depending on your internet connection this installation procedure takes approx. 10 minutes only.
 
@@ -43,7 +43,7 @@ Filesystem      Size  Used Avail Use% Mounted on
 
 Running the installer script need sudo privileges for some elevated commands.
 ```
-curl -Lso /tmp/install-x11-basics.sh -H "Cache-Control: no-cache" https://raw.githubusercontent.com/hypriot/x11-on-HypriotOS/master/install-x11-basics.sh && \
+curl -Lso /tmp/install-x11-basics.sh -H "Cache-Control: no-cache" https://raw.githubusercontent.com/exocode/x11-on-HypriotOS/master/install-x11-basics.sh && \
 chmod +x /tmp/install-x11-basics.sh && \
 /tmp/install-x11-basics.sh -pi3
 /tmp/install-x11-basics.sh -pi3
@@ -62,7 +62,7 @@ Filesystem      Size  Used Avail Use% Mounted on
 ## 2. Installing Chromium web browser on HypriotOS/X11
 Running the installer script need sudo privileges for some elevated commands.
 ```
-curl -sSL https://github.com/hypriot/x11-on-HypriotOS/raw/master/install-chromium-browser.sh | bash
+curl -sSL https://github.com/exocode/x11-on-HypriotOS/raw/master/install-chromium-browser.sh | bash
 ```
 This takes approx. 5 minutes only.
 
